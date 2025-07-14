@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+.main-chat {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.chat-box {
+  border: 1px solid #ccc;
+  padding: 15px;
+  background: var(--bg);
+  color: var(--fg);
+  border-radius: 8px;
+}
+.messages {
+  height: 340px;
+  overflow-y: scroll;
+  margin-bottom: 10px;
+  background: #f6f6f6;
+  padding: 10px;
+  border-radius: 5px;
+}
+.message {
+  margin-bottom: 15px;
+}
+.message .avatar {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin-right: 8px;
+}
+.username {
+  font-weight: bold;
+  margin-right: 8px;
+}
+.reply-context {
+  font-size: 0.9em;
+  color: #888;
+  margin-bottom: 2px;
+}
+.media img, .media video {
+  max-width: 200px;
+  margin-top: 8px;
+  border-radius: 5px;
+}
+.media audio {
+  margin-top: 8px;
+}
+.time {
+  font-size: 0.8em;
+  color: #999;
+}
+.online-users {
+  margin-bottom: 12px;
+  background: #f1f1f1;
+  padding: 8px;
+  border-radius: 6px;
+}
+.typing-indicator {
+  font-style: italic;
+  color: #666;
+  margin-bottom: 8px;
+}
+.theme-toggle {
+  float: right;
+  margin-bottom: 8px;
+}
+input[type="file"] {
+  margin-top: 8px;
+}
+.reply-preview {
+  background: #e2eaff;
+  padding: 6px;
+  border-radius: 4px;
+  margin-bottom: 6px;
+  font-size: 0.95em;
+}
+.profile-form {
+  margin-top: 24px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #f7f7fa;
+  padding: 18px;
+  border-radius: 9px;
+}
+.profile-form img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-bottom: 8px;
+}
+.theme-selector {
+  margin-top: 12px;
+}
